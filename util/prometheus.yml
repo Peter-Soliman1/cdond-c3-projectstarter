@@ -1,10 +1,8 @@
-# This file will reside under prometheus server.
 # Set up Prometheus Server on EC2 following these instructions:
 # https://codewizardly.com/prometheus-on-aws-ec2-part1/
 # Configure Prometheus for AWS Service Discovery following these instructions:
 # https://codewizardly.com/prometheus-on-aws-ec2-part3/
 
-# my global config
 global:
   scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
   evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
@@ -15,11 +13,11 @@ alerting:
   alertmanagers:
   - static_configs:
     - targets:
-      # - alertmanager:9093
+      - localhost:9093
 
 # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
 rule_files:
-  # - "first_rules.yml"
+  - "rules.yml"
   # - "second_rules.yml"
 
 # A scrape configuration containing exactly one endpoint to scrape:
