@@ -31,4 +31,5 @@
         state: present
 
   roles:
-    - configure-server 
+    - configure-server
+    - configure-prometheus-node-exporter
