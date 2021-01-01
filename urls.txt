@@ -1,16 +1,16 @@
-Public Url to GitHub repository (not private) [URL01]
+1) Public Url to GitHub repository (not private) [URL01]
 https://github.com/ggangwar/cdond-c3-projectstarter
 
-Public URL of S3 Bucket (aka, your green candidate front-end) [URL02]
+2) Public URL of S3 Bucket (aka, your green candidate front-end) [URL02]
+http://udapeople-cicd-ce8993a.s3-website.ap-south-1.amazonaws.com/#/employees
 
+3) Public URL of CloudFront distribution (aka, your blue production front-end) [URL03]
+http://d2lykqrdf8biru.cloudfront.net/#/employees
 
-Public URL of CloudFront distribution (aka, your blue production front-end) [URL03]
+4) Public URLs to deployed application back-end in EC2 [URL04]
+http://ec2-52-66-213-4.ap-south-1.compute.amazonaws.com:3030/api/status
 
-
-Public URLs to deployed application back-end in EC2 [URL04]
-http://ec2-13-235-76-27.ap-south-1.compute.amazonaws.com:3030/api/status
-
-Public URL of Prometheus Server [URL05]
+5) Public URL of Prometheus Server [URL05]
 http://ec2-52-66-109-213.ap-south-1.compute.amazonaws.com:9090/alerts
 
 
